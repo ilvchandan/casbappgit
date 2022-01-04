@@ -7,9 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   } else {
 	  $ch = array(
 				"CASB Management",
-				"NT",
-				"Irix",
-				"Linux"
+				"Example Site Title"
 			);
 	  if(in_array(strtolower($name), array_map('strtolower', $ch))) {
 		echo 'Hyva';
